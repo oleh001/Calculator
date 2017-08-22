@@ -13,7 +13,7 @@ public class Window {
     private Config configure = Config.getConfig();
     private JFrame jFrame = configure.getjFrame();
     //jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    //jFrame..setTitle("Foto");
+    //jFrame.setTitle("Foto");
 
     public void setjFrame() {
         Config conf = getConfigure();
@@ -29,7 +29,6 @@ public class Window {
         JButton butMin = new JButton("-");
         JButton butMul = new JButton("*");
         JButton butdiv = new JButton("/");
-        butAdd.setBackground(Color.RED);
         butMin.setBackground(Color.red);
 
         frame.add(butAdd);
